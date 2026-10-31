@@ -2,8 +2,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      <p>Carlos gay</p>
+    <div className="text-9xl">
+      <p className="text-center">landing page
+      </p>
     </div>
   );
 }
