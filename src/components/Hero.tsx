@@ -3,11 +3,11 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='bg-[#D5E3FF] w-full h-100 flex justify-center gap-10'>
+    <div className='bg-[#D5E3FF] w-full h-130 flex justify-center gap-10'>
         <img src="/Oregon.png" alt="Logo of the app" />
-        <div className='flex flex-col justify-center space-y-5'>
+        <div className='flex flex-col justify-center space-y-4'>
             <h1 className='text-5xl font-medium'>Welcome to My Shop Manager</h1>
-            <div>
+            <div className='text-xl mb-10'>
               <p>
                 Do you own a electronics repair store?
               </p>
